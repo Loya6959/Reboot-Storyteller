@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <!-- 未绫V0Rei -->
+    <REBOOT_V0Rei_KillerAura.label>杀气压迫</REBOOT_V0Rei_KillerAura.label>
+    <REBOOT_V0Rei_KillerAura.description>莫名的杀气散之不去，致使心脏快速跳动，进而小幅影响健康状态。由于肾上腺素分泌增加，小幅影响移动能力与视觉能力。</REBOOT_V0Rei_KillerAura.description>
+    <REBOOT_V0Rei_KillerAura.stages.Nervous.label>紧张</REBOOT_V0Rei_KillerAura.stages.Nervous.label>
+    <REBOOT_V0Rei_KillerAura.stages.Panic.label>恐慌</REBOOT_V0Rei_KillerAura.stages.Panic.label>
+
+    <REBOOT_V0Rei_Physical_Enhancement.label>肉体增幅</REBOOT_V0Rei_Physical_Enhancement.label>
+    <REBOOT_V0Rei_Physical_Enhancement.description>未绫V0Rei少见的给了你一点好处，有关战斗的属性得到提升。</REBOOT_V0Rei_Physical_Enhancement.description>
+    <REBOOT_V0Rei_Physical_Enhancement.stages.Enhance.label>提升</REBOOT_V0Rei_Physical_Enhancement.stages.Enhance.label>
+    <REBOOT_V0Rei_Physical_Enhancement.stages.Overloaded.label>超载</REBOOT_V0Rei_Physical_Enhancement.stages.Overloaded.label>
+
+    <REBOOT_V0Rei_Physical_Enhancement_Overdose.label>肉体增幅：过量反应</REBOOT_V0Rei_Physical_Enhancement_Overdose.label>
+    <REBOOT_V0Rei_Physical_Enhancement_Overdose.description>肉体增幅状态消失的一瞬间，药物过量的反应就浮出了水面。</REBOOT_V0Rei_Physical_Enhancement_Overdose.description>
+    <REBOOT_V0Rei_Physical_Enhancement_Overdose.stages.Slight.label>轻微</REBOOT_V0Rei_Physical_Enhancement_Overdose.stages.Slight.label>
+    <REBOOT_V0Rei_Physical_Enhancement_Overdose.stages.Moderate.label>中度</REBOOT_V0Rei_Physical_Enhancement_Overdose.stages.Moderate.label>
+    <REBOOT_V0Rei_Physical_Enhancement_Overdose.stages.Severe.label>重度</REBOOT_V0Rei_Physical_Enhancement_Overdose.stages.Severe.label>
+
+    <!-- 海露美Helmi -->
+    <REBOOT_Helmi_Despair.label>世界末日·绝望</REBOOT_Helmi_Despair.label>
+    <REBOOT_Helmi_Despair.description>就连肉身都能感受到世界末日带来的压迫感。</REBOOT_Helmi_Despair.description>
+    <REBOOT_Helmi_Despair.stages.Despair.label>绝望</REBOOT_Helmi_Despair.stages.Despair.label>
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <InspirationDef>
+        <defName>Helmi_ArtisticProtection</defName>
+        <inspirationClass>Loyacore_RebootStoryteller.Helmi.Helmi_ArtisticProtection</inspirationClass>
+        <label>海露美·艺术加护</label>
+        <allowedOnDownedPawns>false</allowedOnDownedPawns>
+        <baseDurationDays>6</baseDurationDays>
+        <beginLetter>[PAWN_pronoun]在接下来的六天工作将获得更高效率，相关技能等级将会补足到10。</beginLetter>
+        <beginLetterDef>PositiveEvent</beginLetterDef>
+        <endMessage>{0}的艺术加护已经消散。</endMessage>
+        <baseInspectLine>海露美·艺术加护</baseInspectLine>
+        <minAge>13</minAge>
+        <statFactors>
+            <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
+        </statFactors>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+    </InspirationDef>
+</Defs>

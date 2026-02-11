@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <IncidentDef>
+        <defName>RebootStoryteller_TextInputEvent</defName>
+        <label>LOYA·数据采集</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <workerClass>Loyacore_RebootStoryteller.Incident_TextInputEvent</workerClass>
+        <baseChance>0</baseChance>
+        <requireColonistsPresent>False</requireColonistsPresent>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>RebootStoryteller_REBOOT_ThreatBigChoice</defName>
+        <label>REBOOT·可选袭击</label>
+        <category>ThreatBig</category>
+        <pointsScaleable>true</pointsScaleable>
+        <tale>Raid</tale>
+        <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+        <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>Loyacore_RebootStoryteller.REBOOT.REBOOT_ThreatBigChoice</workerClass>
+        <baseChance>0</baseChance>
+        <requireColonistsPresent>False</requireColonistsPresent>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>RebootStoryteller_Loya_LoyaStyleThreatBig</defName>
+        <label>络亚Loya·络亚风格的大型威胁</label>
+        <category>ThreatBig</category>
+        <pointsScaleable>true</pointsScaleable>
+        <tale>Raid</tale>
+        <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+        <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>Loyacore_RebootStoryteller.Loya.Loya_LoyaStyleThreatBig</workerClass>
+        <baseChance>0</baseChance>
+        <requireColonistsPresent>False</requireColonistsPresent>
+    </IncidentDef>
+</Defs>

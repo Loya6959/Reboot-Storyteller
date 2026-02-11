@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <ThoughtDef>
+        <defName>Sthri_AppreciatesArt</defName>
+        <stackLimit>2</stackLimit>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>斯瑞·大师激励</label>
+                <description>这是做出大师级物品后，斯瑞给的小小奖励~</description>
+                <baseMoodEffect>+6</baseMoodEffect>
+            </li>
+            <li>
+                <label>斯瑞·传奇激励</label>
+                <description>在做出传奇级别物品的情况下，理应有更好的小奖励~</description>
+                <baseMoodEffect>+12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Helmi_Numb</defName>
+        <stackLimit>1</stackLimit>
+        <thoughtClass>Loyacore_RebootStoryteller.Helmi.Helmi_Numb_Thought</thoughtClass>
+        <stages>
+            <li>
+                <label>世界末日·麻木</label>
+                <description>任何情绪都已经没有了任何意义，即便是崩溃也不能阻止一切……</description>
+                <baseMoodEffect>+5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

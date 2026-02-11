@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+    <!-- 进入存档时的欢迎语 -->
+    <REBOOT_Sthri_Welcome_1>斯瑞Sthri：欢迎回来，希望监察者在接下来的时间里游玩愉快~</REBOOT_Sthri_Welcome_1>
+    <REBOOT_Sthri_Welcome_2>斯瑞Sthri：然后，络亚大人说，不要好奇做mod反编译，不然她会杀了你（）</REBOOT_Sthri_Welcome_2>
+    <!-- 信件内容 -->
+    <REBOOT_Sthri_Madness_Letter_Label>SthriOS: Error</REBOOT_Sthri_Madness_Letter_Label>
+    <REBOOT_Sthri_Madness_Letter_Text>&lt;color=#FF5555&gt;[Error] Security Error: 组件尝试执行高风险操作。\n状况：SthriOS.OpticalComponents.TextRecognition()返回了企图执行高风险操作的字符串"rm -rf *"&lt;/color&gt;\n\n&lt;color=#FFFF55&gt;[Warning] 操作系统已经转入保护性歼灭模式&lt;/color&gt;</REBOOT_Sthri_Madness_Letter_Text>
+    <REBOOT_Sthri_Madness_Message>警告：SthriOS进入歼灭模式</REBOOT_Sthri_Madness_Message>
+    <!-- 疯狂状态下的台词 -->
+    <REBOOT_SthriMadness_Loya_1>络亚Loya：这到底是看到了啥东西才出这种问题的啊，也不像是被黑了啊？</REBOOT_SthriMadness_Loya_1>
+    <REBOOT_SthriMadness_Loya_2>络亚Loya：rm -rf？不是，Linux的命令居然还能对我家大姐头起效果的？？？？</REBOOT_SthriMadness_Loya_2>
+    <REBOOT_SthriMadness_Loya_3>络亚Loya：额……你别急啊，真要是因为她现在的状态导致整个存档进行不下去，那你也只能受着了。</REBOOT_SthriMadness_Loya_3>
+    <REBOOT_SthriMadness_Loya_4>络亚Loya：研究一个从来没见过的东西真是头疼……好在我已经快研究好了。</REBOOT_SthriMadness_Loya_4>
+    <REBOOT_SthriMadness_Loya_5>络亚Loya：你再坚持一小段时间啊！五天都熬过去了还怕熬不过这么一点时间？马上就让她恢复意识！</REBOOT_SthriMadness_Loya_5>
+    <REBOOT_SthriMadness_Loya_6>络亚Loya：终于修好了……累死我了……</REBOOT_SthriMadness_Loya_6>
+</LanguageData>

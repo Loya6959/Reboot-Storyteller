@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+    <name>Re:boot - 故事叙事者</name>
+    <packageId>Loyacore.reboot</packageId>
+    <modVersion>0.3.5-dev</modVersion>
+    <author>络亚Loya</author>
+    <description>添加了四位「Re:boot」企划的player、Re:boot本体等五位故事叙事者。五位叙事者各自有不同的风格。</description>
+    <supportedVersions>
+        <li>1.5</li>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependenciesByVersion>
+        <!-- 部分叙事者的特殊功能用到了此mod -->
+        <v1.5>
+            <li>
+                <packageId>brrainz.harmony</packageId>
+                <displayName>Harmony</displayName>
+                <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+                <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+            </li>
+        </v1.5>
+        <v1.6>
+            <li>
+                <packageId>brrainz.harmony</packageId>
+                <displayName>Harmony</displayName>
+                <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+                <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+            </li>
+        </v1.6>
+    </modDependenciesByVersion>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+    </loadAfter>
+</ModMetaData>

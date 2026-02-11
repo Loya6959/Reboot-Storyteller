@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <StorytellerDef ParentName="BaseStoryteller">
+        <defName>Loyacore_ABCDEFG</defName> <!-- 定义名 必须确保唯一 -->
+        <label>「经典」阿巴阿巴阿巴</label> <!-- 叙事者名 -->
+        <description>你要是真想用它来当你的叙事者我也不拦着，它就是个卡桑德拉而已。\n\n不过，要是你也想开发自己的叙事者，希望这个模板能帮到你。</description>
+        <portraitLarge>Storyteller/Loya/Loya_Teller</portraitLarge>
+        <portraitTiny>Storyteller/Loya/Loya_TellerTiny</portraitTiny>
+        <listVisible>false</listVisible>
+        <listOrder>1001</listOrder>
+
+        <comps>
+            <!-- 注：模板提取自Rimworld: Core的卡桑德拉 -->
+            <!-- Intro（介绍） -->
+            <li Class="StorytellerCompProperties_ClassicIntro" />
+            <!-- Home threats（家园威胁控制） -->
+            <li Class="StorytellerCompProperties_OnOffCycle">
+                <!-- 重大威胁频率控制 -->
+                <category>ThreatBig</category>
+                <minDaysPassed>11.0</minDaysPassed>
+                <onDays>4.6</onDays>
+                <offDays>6.0</offDays>
+                <minSpacingDays>1.9</minSpacingDays>
+                <numIncidentsRange>1~2</numIncidentsRange>
+                <forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
+                <disallowedTargetTags>
+                    <li>Map_RaidBeacon</li>
+                </disallowedTargetTags>
+            </li>
+            <li Class="StorytellerCompProperties_ThreatsGenerator">
+                <!-- 袭击生成器 -->
+                <allowedTargetTags>
+                    <li>Map_RaidBeacon</li>
+                </allowedTargetTags>
+                <parms>
+                    <allowedThreats>Raids</allowedThreats>
+                    <onDays>1.0</onDays>
+                    <offDays>0.5</offDays>
+                    <minSpacingDays>0.04</minSpacingDays>
+                    <numIncidentsRange>1~2</numIncidentsRange>
+                    <minThreatPoints>500</minThreatPoints>
+                </parms>
+            </li>
+            <li Class="StorytellerCompProperties_OnOffCycle">
+                <!-- 小型威胁频率控制 -->
+                <category>ThreatSmall</category>
+                <minDaysPassed>11.0</minDaysPassed>
+                <onDays>4.6</onDays>
+                <offDays>6.0</offDays>
+                <numIncidentsRange>0.2~1</numIncidentsRange>
+                <acceptPercentFactorPerThreatPointsCurve>
+                    <points>
+                        <li>(800, 1)</li>
+                        <li>(2800, 0)</li>
+                    </points>
+                </acceptPercentFactorPerThreatPointsCurve>
+            </li>
+            <!-- Home misc incidents（家园杂项事件） -->
+            <li Class="StorytellerCompProperties_CategoryMTB">
+                <!-- 基于平均时间配置事件调度 -->
+                <category>Misc</category>
+                <allowedTargetTags>
+                    <li>Map_PlayerHome</li>
+                </allowedTargetTags>
+                <minDaysPassed>5</minDaysPassed>
+                <mtbDays>4.8</mtbDays>
+            </li>
+            <li Class="StorytellerCompProperties_ShipChunkDrop" /><!-- 配置船块掉落 这里似乎是使用了系统默认行为 -->
+            <li Class="StorytellerCompProperties_Disease">
+                <!-- 配置人类疾病 -->
+                <category>DiseaseHuman</category>
+                <minDaysPassed>9</minDaysPassed>
+            </li>
+            <li Class="StorytellerCompProperties_Disease">
+                <!-- 配置动物疾病 -->
+                <category>DiseaseAnimal</category>
+                <minDaysPassed>9</minDaysPassed>
+            </li>
+            <!-- Ally/neutral interaction（盟友/中立派系互动） -->
+            <li Class="StorytellerCompProperties_FactionInteraction">
+                <!-- 配置援军生成 -->
+                <incident>RaidFriendly</incident>
+                <baseIncidentsPerYear>15</baseIncidentsPerYear>
+                <minSpacingDays>0.4</minSpacingDays>
+                <fullAlliesOnly>true</fullAlliesOnly>
+                <minDanger>High</minDanger>
+            </li>
+            <li Class="StorytellerCompProperties_FactionInteraction">
+                <!-- 配置贸易商队生成 -->
+                <incident>TraderCaravanArrival</incident>
+                <minDaysPassed>5</minDaysPassed>
+                <baseIncidentsPerYear>5</baseIncidentsPerYear>
+                <minSpacingDays>6</minSpacingDays>
+                <allowedTargetTags>
+                    <li>Map_PlayerHome</li>
+                </allowedTargetTags>
+            </li>
+            <li Class="StorytellerCompProperties_FactionInteraction">
+                <!-- 配置访客团生成 -->
+                <incident>VisitorGroup</incident>
+                <minDaysPassed>3</minDaysPassed>
+                <baseIncidentsPerYear>4</baseIncidentsPerYear>
+                <minSpacingDays>5</minSpacingDays>
+                <allowedTargetTags>
+                    <li>Map_PlayerHome</li>
+                </allowedTargetTags>
+            </li>
+            <li Class="StorytellerCompProperties_FactionInteraction">
+                <!-- 配置旅行者事件生成 -->
+                <incident>TravelerGroup</incident>
+                <minDaysPassed>1</minDaysPassed>
+                <baseIncidentsPerYear>6</baseIncidentsPerYear>
+                <minSpacingDays>1</minSpacingDays>
+                <allowedTargetTags>
+                    <li>Map_PlayerHome</li>
+                </allowedTargetTags>
+            </li>
+            <!-- Caravan / temp map（临时地图事件） -->
+            <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+                <!-- 根据生物群落调整杂项(Misc)事件的生成 -->
+                <category>Misc</category>
+                <allowedTargetTags>
+                    <li>Caravan</li>
+                    <li>Map_TempIncident</li>
+                </allowedTargetTags>
+            </li>
+            <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+                <!-- 根据生物群落调整小型威胁(ThreatSmall)事件的生成 -->
+                <category>ThreatSmall</category>
+                <applyCaravanVisibility>true</applyCaravanVisibility>
+                <allowedTargetTags>
+                    <li>Caravan</li>
+                    <li>Map_TempIncident</li>
+                </allowedTargetTags>
+            </li>
+            <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+                <!-- 根据生物群落调整大型威胁(ThreatBig)事件的生成 -->
+                <category>ThreatBig</category>
+                <applyCaravanVisibility>true</applyCaravanVisibility>
+                <allowedTargetTags>
+                    <li>Caravan</li>
+                    <li>Map_TempIncident</li>
+                </allowedTargetTags>
+            </li>
+            <!-- Quests - non-Royalty（没有皇权DL时的任务生成） -->
+            <li Class="StorytellerCompProperties_RandomQuest">
+                <!-- 控制基本任务赋予事件的生成 -->
+                <category>GiveQuest</category>
+                <allowedTargetTags>
+                    <li>World</li>
+                </allowedTargetTags>
+                <onDays>10</onDays>
+                <numIncidentsRange>1</numIncidentsRange>
+                <acceptFractionByDaysPassedCurve>
+                    <points>
+                        <li>(8, 0)</li>
+                        <li>(15, 1)</li>
+                    </points>
+                </acceptFractionByDaysPassedCurve>
+                <minSpacingDays>3</minSpacingDays>
+                <disableIfAnyModActive>
+                    <!-- 在皇权DLC被禁用时才会生效 -->
+                    <li>Ludeon.RimWorld.Royalty</li>
+                </disableIfAnyModActive>
+            </li>
+            <!-- Quests - Royalty（存在皇权DLC时的任务生成） -->
+            <li Class="StorytellerCompProperties_RandomQuest">
+                <!-- 控制基本任务赋予事件的生成 -->
+                <category>GiveQuest</category>
+                <allowedTargetTags>
+                    <li>World</li>
+                </allowedTargetTags>
+                <onDays>12</onDays>
+                <numIncidentsRange>2</numIncidentsRange>
+                <acceptFractionByDaysPassedCurve>
+                    <points>
+                        <li>(8, 0)</li>
+                        <li>(15, 1)</li>
+                    </points>
+                </acceptFractionByDaysPassedCurve>
+                <minSpacingDays>3</minSpacingDays>
+                <enableIfAnyModActive>
+                    <!-- 在皇权DLC启用时才会生效 -->
+                    <li>Ludeon.RimWorld.Royalty</li>
+                </enableIfAnyModActive>
+            </li>
+            <!-- World misc incidents（世界地图杂项事件） -->
+            <li Class="StorytellerCompProperties_CategoryMTB">
+                <!-- 根据事件类别计算的平均间隔时间生成杂项事件 -->
+                <category>Misc</category>
+                <allowedTargetTags>
+                    <!-- 仅针对世界地图做设置 -->
+                    <li>World</li>
+                </allowedTargetTags>
+                <minDaysPassed>15</minDaysPassed>
+                <mtbDays>15</mtbDays>
+            </li>
+            <!-- Orbital trader（轨道商人事件） -->
+            <li Class="StorytellerCompProperties_OnOffCycle">
+                <!-- 控制轨道贸易商的生成周期 -->
+                <incident>OrbitalTraderArrival</incident>
+                <onDays>7</onDays>
+                <offDays>8</offDays>
+                <numIncidentsRange>1</numIncidentsRange>
+            </li>
+            <!-- Triggered（已触发，目前我只观察到这个对人死光了有作用） -->
+            <li Class="StorytellerCompProperties_Triggered">
+                <!-- 在人死光时送个黑衣人……卡桑德拉倒是仁慈哈 -->
+                <incident>StrangerInBlackJoin</incident>
+                <delayTicks>180</delayTicks>
+            </li>
+        </comps>
+    </StorytellerDef>
+
+</Defs>

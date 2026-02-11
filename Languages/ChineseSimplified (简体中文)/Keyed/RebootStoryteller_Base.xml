@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+    <!-- 信件内选项 -->
+    <REBOOT_LoyaLetter_Open>同意数据采集</REBOOT_LoyaLetter_Open>
+    <REBOOT_LoyaLetter_Refuse>拒绝数据采集</REBOOT_LoyaLetter_Refuse>
+    <!-- 信件标签 -->
+    <REBOOT_IncidentTextInputEvent_Label>Loya的数据采集</REBOOT_IncidentTextInputEvent_Label>
+    <REBOOT_IncidentTextInputEvent_Text>络亚Loya想要从你这采集一些数据</REBOOT_IncidentTextInputEvent_Text>
+    <!-- I_ASK自定义弹窗类 通用文本 -->
+    <REBOOT_IAsk_Title>数据采集</REBOOT_IAsk_Title>
+    <REBOOT_IAsk_Text_NoSthri>络亚Loya想要你输入点东西，什么东西都行</REBOOT_IAsk_Text_NoSthri>
+    <REBOOT_IAsk_Text_Sthri>络亚Loya大人想要你输入点东西，什么东西都行</REBOOT_IAsk_Text_Sthri>
+    <REBOOT_IAsk_Button>确认</REBOOT_IAsk_Button>
+    <!-- I_ASK自定义弹窗类 叙事者个性文本 ExecuteRefusalLogic -->
+    <REBOOT_IAsk_ExecuteRefusalLogic_Sthri>您不参与吗？络亚大人她好像也不是很在意，您倒是可以不用担心她绕过我安排事件了。</REBOOT_IAsk_ExecuteRefusalLogic_Sthri>
+    <REBOOT_IAsk_ExecuteRefusalLogic_V0Rei>嗯……她这一脸不在乎的，这个调查到底有啥意义啊？</REBOOT_IAsk_ExecuteRefusalLogic_V0Rei>
+    <REBOOT_IAsk_ExecuteRefusalLogic_Helmi>虽然看起来毫不在乎，但……Loya的确有些难以察觉的失望呢。</REBOOT_IAsk_ExecuteRefusalLogic_Helmi>
+    <REBOOT_IAsk_ExecuteRefusalLogic_Ventura>不填也没事监察者，我到时候就说是您不小心按了Esc吧。</REBOOT_IAsk_ExecuteRefusalLogic_Ventura>
+    <REBOOT_IAsk_ExecuteRefusalLogic_REBOOT>REBOOT::MSG - 用户取消填写。</REBOOT_IAsk_ExecuteRefusalLogic_REBOOT>
+    <REBOOT_IAsk_ExecuteRefusalLogic_Loya>也是，现在配合我填写这个也没啥意义了。</REBOOT_IAsk_ExecuteRefusalLogic_Loya>
+    <!-- I_ASK自定义弹窗类 叙事者个性文本 HandleInput -->
+    <!-- var: lines_condition_met -->
+    <REBOOT_IAsk_HandleInput_lines_condition_met_Sthri>您的数据一如既往——等等，络亚大人提醒您待会儿离开时看看叙事者列表，转达完毕。</REBOOT_IAsk_HandleInput_lines_condition_met_Sthri>
+    <REBOOT_IAsk_HandleInput_lines_condition_met_V0Rei>她怕是又要发疯……欸？什么？让人去看叙事者列表，行行。听到了吧，待会儿离开时别忘了瞟一眼。</REBOOT_IAsk_HandleInput_lines_condition_met_V0Rei>
+    <REBOOT_IAsk_HandleInput_lines_condition_met_Helmi>Loya说，记得去看讲述人列表，会给露噜米一个惊喜哦~</REBOOT_IAsk_HandleInput_lines_condition_met_Helmi>
+    <REBOOT_IAsk_HandleInput_lines_condition_met_Ventura>谢谢填写，然后Loya看完后眼前一亮，让我转告你一定要记得去看讲述人列表^^</REBOOT_IAsk_HandleInput_lines_condition_met_Ventura>
+    <REBOOT_IAsk_HandleInput_lines_condition_met_REBOOT>REBOOT::MSG - Loya转告您，查看讲述人列表</REBOOT_IAsk_HandleInput_lines_condition_met_REBOOT>
+    <REBOOT_IAsk_HandleInput_lines_condition_met_Loya>还记得那串密码明文啊，不错不错。</REBOOT_IAsk_HandleInput_lines_condition_met_Loya>
+    <!-- var: lines_normal -->
+    <REBOOT_IAsk_HandleInput_lines_normal_Sthri>您的数据一如既往的没让她提起兴趣呢……</REBOOT_IAsk_HandleInput_lines_normal_Sthri>
+    <REBOOT_IAsk_HandleInput_lines_normal_V0Rei>她怕是又要发疯了，这女人就喜欢打打杀杀……</REBOOT_IAsk_HandleInput_lines_normal_V0Rei>
+    <REBOOT_IAsk_HandleInput_lines_normal_Helmi>哈？她居然看了一眼就跑去睡觉了吗？！真是有够…</REBOOT_IAsk_HandleInput_lines_normal_Helmi>
+    <REBOOT_IAsk_HandleInput_lines_normal_Ventura>谢谢填写，不过她看完后就跑去喝咖啡了。</REBOOT_IAsk_HandleInput_lines_normal_Ventura>
+    <REBOOT_IAsk_HandleInput_lines_normal_REBOOT>REBOOT::MSG - Loya，未对您的数据产生兴趣</REBOOT_IAsk_HandleInput_lines_normal_REBOOT>
+    <REBOOT_IAsk_HandleInput_lines_normal_Loya>不是，记忆力这么差的？！</REBOOT_IAsk_HandleInput_lines_normal_Loya>
+    <!-- var: lines_unlocked -->
+    <REBOOT_IAsk_HandleInput_lines_unlocked_Sthri>没想到您依旧愿意配合络亚大人，她这会儿估计很高兴吧。</REBOOT_IAsk_HandleInput_lines_unlocked_Sthri>
+    <REBOOT_IAsk_HandleInput_lines_unlocked_V0Rei>别看她一脸平静，心里估计乐开了花。哦对，你看不到她的表情就是了（）</REBOOT_IAsk_HandleInput_lines_unlocked_V0Rei>
+    <REBOOT_IAsk_HandleInput_lines_unlocked_Helmi>还是头一次见到Loya轻哼小曲儿呢。</REBOOT_IAsk_HandleInput_lines_unlocked_Helmi>
+    <REBOOT_IAsk_HandleInput_lines_unlocked_Ventura>虽然监察者已经填写过正确答案了，不过还是谢谢填写。此外，她这会儿心情貌似不错。</REBOOT_IAsk_HandleInput_lines_unlocked_Ventura>
+    <REBOOT_IAsk_HandleInput_lines_unlocked_REBOOT>REBOOT::MSG - Loya，当前心情阈值90%</REBOOT_IAsk_HandleInput_lines_unlocked_REBOOT>
+    <!-- <IAsk_HandleInput_lines_unlocked_Loya>还记得那串密码明文啊，不错不错。</IAsk_HandleInput_lines_unlocked_Loya> -->
+    <!-- I_ASK自定义弹窗类 斯瑞疯狂事件 -->
+    <REBOOT_IAsk_SthriMadness_Triggered>虽然不知道您现在输入这个禁忌命令是想干什么，不过络亚大人已经为我打好相关补丁了</REBOOT_IAsk_SthriMadness_Triggered>
+    <REBOOT_IAsk_SthriMadness_Warning>SthriOS：警告，检测到严重威胁操作系统安全的操作。</REBOOT_IAsk_SthriMadness_Warning>
+    <REBOOT_IAsk_SthriMadness_Init>SthriOS：本机正在初始化防备模式。</REBOOT_IAsk_SthriMadness_Init>
+    <REBOOT_IAsk_SthriMadness_Strategy>SthriOS：策略，尽可能消灭威胁。</REBOOT_IAsk_SthriMadness_Strategy>
+    <REBOOT_IAsk_SthriMadness_Loya>络亚Loya：什么鬼？！额……我……给我五天，我马上修复她的操作系统。</REBOOT_IAsk_SthriMadness_Loya>
+    <!-- I_ASK自定义弹窗类 help命令 -->
+    <REBOOT_IAsk_HELP_CMD_0>络亚Loya：我先说明，这只是一句预留的留言而已。</REBOOT_IAsk_HELP_CMD_0>
+    <REBOOT_IAsk_HELP_CMD_1>络亚Loya：说回正题，这个mod的文件夹有你需要的东西，记得去看。然后嘛……待会儿最好看看你的桌面有没有多什么东西。</REBOOT_IAsk_HELP_CMD_1>
+</LanguageData>

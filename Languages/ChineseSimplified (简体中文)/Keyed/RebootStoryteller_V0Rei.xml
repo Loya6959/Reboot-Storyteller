@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+    <!-- 暗杀机制台词 -->
+    <REBOOT_V0Rei_Assassination_End>{0}不再感到莫名紧张</REBOOT_V0Rei_Assassination_End>
+    <REBOOT_V0Rei_Target_Down>未绫V0Rei：Target Down.</REBOOT_V0Rei_Target_Down>
+    <REBOOT_V0Rei_Target_Marker>未绫V0Rei：{0}，You Are Going To Die.</REBOOT_V0Rei_Target_Marker>
+    <REBOOT_V0Rei_Abandon_Assassination>未绫V0Rei：算了，之后就不对你的人动手了。</REBOOT_V0Rei_Abandon_Assassination>
+    <!-- 战斗援助台词 -->
+    <REBOOT_V0Rei_Combat_Reinforcement>未绫V0Rei：今天我心情不错，给你点战斗增援，不过过没过量我就不知道了</REBOOT_V0Rei_Combat_Reinforcement>
+</LanguageData>

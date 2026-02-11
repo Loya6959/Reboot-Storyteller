@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <LetterDef>
+        <defName>Loya_DataCollection</defName>
+        <color>0.608, 0.2, 0.941</color>
+        <flashColor>0.608, 0.2, 0.941</flashColor>
+        <flashInterval>75</flashInterval>
+        <bounce>false</bounce>
+        <pauseMode>AnyLetter</pauseMode>
+    </LetterDef>
+
+    <LetterDef>
+        <defName>Sthri_Madness</defName>
+        <color>0.608, 0.2, 0.941</color>
+        <flashColor>0.608, 0.2, 0.941</flashColor>
+        <flashInterval>75</flashInterval>
+        <bounce>true</bounce>
+        <arriveSound>LetterArrive_BadUrgentBig</arriveSound>
+        <pauseMode>MajorThreat</pauseMode>
+    </LetterDef>
+
+    <LetterDef>
+        <defName>Helmi_TheEndOfTheWorld</defName>
+        <color>0.608, 0.2, 0.941</color>
+        <flashColor>0.608, 0.2, 0.941</flashColor>
+        <flashInterval>75</flashInterval>
+        <bounce>true</bounce>
+        <arriveSound>LetterArrive_BadUrgentBig</arriveSound>
+        <pauseMode>MajorThreat</pauseMode>
+    </LetterDef>
+
+    <LetterDef>
+        <defName>REBOOT_ThreatBigChoice</defName>
+        <color>0.0, 0.0, 0.0</color>
+        <flashColor>0.0, 0.0, 0.0</flashColor>
+        <flashInterval>75</flashInterval>
+        <bounce>true</bounce>
+        <arriveSound>LetterArrive_BadUrgentBig</arriveSound>
+        <pauseMode>MajorThreat</pauseMode>
+    </LetterDef>
+</Defs>
