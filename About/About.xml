@@ -3,7 +3,7 @@
 <ModMetaData>
     <name>Re:boot - 故事叙事者</name>
     <packageId>Loyacore.reboot</packageId>
-    <modVersion>0.3.5-dev</modVersion>
+    <modVersion>0.3.6-dev</modVersion>
     <author>络亚Loya</author>
     <description>添加了四位「Re:boot」企划的player、Re:boot本体等五位故事叙事者。五位叙事者各自有不同的风格。</description>
     <supportedVersions>
