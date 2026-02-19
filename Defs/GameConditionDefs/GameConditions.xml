@@ -3,7 +3,7 @@
 <Defs>
     <GameConditionDef>
         <defName>REBOOT_StorytellerMadness_Sthri</defName>
-        <conditionClass>Loyacore_RebootStoryteller.Sthri.GameCondition_SthriMadness</conditionClass>
+        <conditionClass>Loyacore_RebootStoryteller.Sthri.Sthri_Madness_GameCondition</conditionClass>
         <label>斯瑞·歼灭模式</label>
         <description>你的某些行为触发了斯瑞的操作系统防卫模式，我只能说……祝你好运。</description>
         <descriptionFuture>以防你忘记，这里我重申一遍，我会在五天内解决这个问题，期间你自己想办法吧。</descriptionFuture>
@@ -15,20 +15,8 @@
     </GameConditionDef>
 
     <GameConditionDef>
-        <defName>REBOOT_V0Rei_Assassination</defName>
-        <conditionClass>Loyacore_RebootStoryteller.V0Rei.GameCondition_V0ReiAssassination</conditionClass>
-        <label>未绫·暗杀预备</label>
-        <description>几个倒霉蛋成了未绫V0Rei的暗杀候选，最好是盯紧点。</description>
-        <descriptionFuture>你有听说过杀气吗？传说，强大的杀气甚至能带给人濒死体验。</descriptionFuture>
-        <letterDef>NegativeEvent</letterDef>
-        <canBePermanent>false</canBePermanent>
-        <allowUnderground>true</allowUnderground>
-        <pennedAnimalsSeekShelter>true</pennedAnimalsSeekShelter>
-    </GameConditionDef>
-
-    <GameConditionDef>
         <defName>REBOOT_Helmi_TheEndOfTheWorld</defName>
-        <conditionClass>Loyacore_RebootStoryteller.Helmi.GameCondition_Helmi_TheEndOfTheWorld</conditionClass>
+        <conditionClass>Loyacore_RebootStoryteller.Helmi.Helmi_TheEndOfTheWorld_GameCondition</conditionClass>
         <label>海露美·世界末日</label>
         <description>……</description>
         <descriptionFuture>舞台总有落幕，不是吗？我很遗憾，这场表演最后的结局是这样。</descriptionFuture>

@@ -6,6 +6,9 @@
     <REBOOT_V0Rei_Target_Down>未绫V0Rei：Target Down.</REBOOT_V0Rei_Target_Down>
     <REBOOT_V0Rei_Target_Marker>未绫V0Rei：{0}，You Are Going To Die.</REBOOT_V0Rei_Target_Marker>
     <REBOOT_V0Rei_Abandon_Assassination>未绫V0Rei：算了，之后就不对你的人动手了。</REBOOT_V0Rei_Abandon_Assassination>
+    <!-- 警告框文本 -->
+    <REBOOT_V0Rei_Alert_Title>V0Rei·目标确认</REBOOT_V0Rei_Alert_Title>
+    <REBOOT_V0Rei_Alert_Text>几个“幸运儿”已经成为未绫V0Rei的暗杀目标候选，&lt;color=#FF0000&gt;{0}天&lt;/color&gt;后她将执行暗杀</REBOOT_V0Rei_Alert_Text>
     <!-- 战斗援助台词 -->
     <REBOOT_V0Rei_Combat_Reinforcement>未绫V0Rei：今天我心情不错，给你点战斗增援，不过过没过量我就不知道了</REBOOT_V0Rei_Combat_Reinforcement>
 </LanguageData>

@@ -8,7 +8,7 @@
         <targetTags>
             <li>World</li>
         </targetTags>
-        <workerClass>Loyacore_RebootStoryteller.Incident_TextInputEvent</workerClass>
+        <workerClass>Loyacore_RebootStoryteller.Base.Incident_TextInputEvent</workerClass>
         <baseChance>0</baseChance>
         <requireColonistsPresent>False</requireColonistsPresent>
     </IncidentDef>

@@ -85,9 +85,9 @@
                 </allowedTargetTags>
             </li>
             <!-- 暗杀组件 -->
-            <li Class="Loyacore_RebootStoryteller.V0Rei.StorytellerCompProperties_V0ReiAssassination"/>
+            <li Class="Loyacore_RebootStoryteller.V0Rei.V0Rei_StorytellerCompProperties_Assassination"/>
             <!-- Home threats（家园威胁控制） -->
-            <li Class="Loyacore_RebootStoryteller.StorytellerCompProperties_OnOffCycle_Base">
+            <li Class="Loyacore_RebootStoryteller.Base.Base_StorytellerCompProperties_OnOffCycle">
                 <!-- 重大威胁频率控制 -->
                 <!-- 研究本XML的朋友注意一下 原版的StorytellerCompProperties_OnOffCycle并不能配置固定乘数 -->
                 <!-- 这个是我自己用C#实现的 -->
@@ -105,7 +105,7 @@
                     <li>Map_RaidBeacon</li>
                 </disallowedTargetTags>
             </li>
-            <li Class="Loyacore_RebootStoryteller.StorytellerCompProperties_ThreatsGenerator_Base">
+            <li Class="Loyacore_RebootStoryteller.Base.Base_StorytellerCompProperties_ThreatsGenerator">
                 <!-- 袭击生成器 -->
                 <!-- 研究本XML的朋友注意一下 原版的StorytellerCompProperties_ThreatsGenerator并不能配置随机 -->
                 <!-- 这个是我自己用C#实现的 -->
@@ -123,7 +123,7 @@
                 <!-- 袭击点数降低0.2 -->
                 <difficultyMultiplier>0.8</difficultyMultiplier>
             </li>
-            <li Class="Loyacore_RebootStoryteller.StorytellerCompProperties_OnOffCycle_Base">
+            <li Class="Loyacore_RebootStoryteller.Base.Base_StorytellerCompProperties_OnOffCycle">
                 <!-- 小型威胁频率控制 -->
                 <!-- 和上面那个一样 -->
                 <category>ThreatSmall</category>

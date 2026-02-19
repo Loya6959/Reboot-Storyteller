@@ -84,6 +84,7 @@
                     <li>World</li>
                 </allowedTargetTags>
             </li>
+            <li Class="Loyacore_RebootStoryteller.Sthri.Sthri_StorytellerCompProperties_Madness"/>
             <!-- Home threats（家园威胁控制） -->
             <li Class="StorytellerCompProperties_OnOffCycle">
                 <!-- 重大威胁频率控制 -->

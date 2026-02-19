@@ -81,14 +81,14 @@
                 </allowedTargetTags>
             </li>
             <!-- 专门的艺术激励 -->
-            <li Class="Loyacore_RebootStoryteller.Helmi.StorytellerCompProperties_ArtisticProtection_Helmi">
+            <li Class="Loyacore_RebootStoryteller.Helmi.Helmi_StorytellerCompProperties_ArtisticProtection">
                 <numberOfDaysInterval>15</numberOfDaysInterval>
                 <probability>0.08</probability>
             </li>
             <!-- 海神惩戒 -->
-            <li Class="Loyacore_RebootStoryteller.Helmi.StorytellerCompProperties_PoseidonJudgment_Helmi"/>
+            <li Class="Loyacore_RebootStoryteller.Helmi.Helmi_StorytellerCompProperties_PoseidonJudgment"/>
             <!-- Home threats（家园威胁控制） -->
-            <li Class="Loyacore_RebootStoryteller.Helmi.StorytellerCompProperties_OnOffCycle_Helmi">
+            <li Class="Loyacore_RebootStoryteller.Helmi.Helmi_StorytellerCompProperties_OnOffCycle">
                 <!-- 重大威胁频率控制 -->
                 <!-- 研究本XML的朋友注意一下 原版的StorytellerCompProperties_OnOffCycle并不能配置随机 -->
                 <!-- 这个是我自己用C#实现的 -->
@@ -105,7 +105,7 @@
                     <li>Map_RaidBeacon</li>
                 </disallowedTargetTags>
             </li>
-            <li Class="Loyacore_RebootStoryteller.Helmi.StorytellerCompProperties_ThreatsGenerator_Helmi">
+            <li Class="Loyacore_RebootStoryteller.Helmi.Helmi_StorytellerCompProperties_ThreatsGenerator">
                 <!-- 袭击生成器 -->
                 <!-- 研究本XML的朋友注意一下 原版的StorytellerCompProperties_ThreatsGenerator并不能配置随机 -->
                 <!-- 这个是我自己用C#实现的 -->
@@ -122,7 +122,7 @@
                 </parms>
                 <randomFactorRange>0.7~1.3</randomFactorRange>
             </li>
-            <li Class="Loyacore_RebootStoryteller.Helmi.StorytellerCompProperties_OnOffCycle_Helmi">
+            <li Class="Loyacore_RebootStoryteller.Helmi.Helmi_StorytellerCompProperties_OnOffCycle">
                 <!-- 小型威胁频率控制 -->
                 <!-- 和上面那个一样 -->
                 <category>ThreatSmall</category>

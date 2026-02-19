@@ -55,7 +55,7 @@
         <defName>REBOOT_V0Rei_Physical_Enhancement</defName>
         <label>肉体增幅</label>
         <description>未绫V0Rei少见的给了你一点好处，有关战斗的属性得到提升。</description>
-        <hediffClass>Loyacore_RebootStoryteller.V0Rei.V0Rei_CombatAssist</hediffClass>
+        <hediffClass>Loyacore_RebootStoryteller.V0Rei.V0Rei_CombatAssist_HediffWithComps</hediffClass>
         <isBad>false</isBad>
         <initialSeverity>0.1</initialSeverity>
         <tendable>false</tendable>

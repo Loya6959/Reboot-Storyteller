@@ -85,7 +85,7 @@
                 </allowedTargetTags>
             </li>
             <!-- Home threats（家园威胁控制） -->
-            <li Class="Loyacore_RebootStoryteller.Ventura.StorytellerCompProperties_OnOffCycle_Ventura">
+            <li Class="Loyacore_RebootStoryteller.Ventura.Ventura_StorytellerCompProperties_OnOffCycle">
                 <!-- 重大威胁频率控制 -->
                 <category>ThreatBig</category>
                 <minDaysPassed>11.0</minDaysPassed>
@@ -102,7 +102,7 @@
                     <li>Map_RaidBeacon</li>
                 </disallowedTargetTags>
             </li>
-            <li Class="Loyacore_RebootStoryteller.Ventura.StorytellerCompProperties_ThreatsGenerator_Ventura">
+            <li Class="Loyacore_RebootStoryteller.Ventura.Ventura_StorytellerCompProperties_ThreatsGenerator">
                 <!-- 袭击生成器 -->
                 <allowedTargetTags>
                     <li>Map_RaidBeacon</li>
@@ -121,7 +121,7 @@
                 <difficultyMultiplier_Sthri>0.9</difficultyMultiplier_Sthri>
                 <randomFactorRange_Helmi>0.7~1.3</randomFactorRange_Helmi>
             </li>
-            <li Class="Loyacore_RebootStoryteller.Ventura.StorytellerCompProperties_OnOffCycle_Ventura">
+            <li Class="Loyacore_RebootStoryteller.Ventura.Ventura_StorytellerCompProperties_OnOffCycle">
                 <!-- 小型威胁频率控制 -->
                 <category>ThreatSmall</category>
                 <minDaysPassed>11.0</minDaysPassed>
