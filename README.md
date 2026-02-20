@@ -76,7 +76,7 @@ mod区分0Harmony版本（也就是带0Harmony后缀的版本）和普通版本�
 | 未绫V0Rei | 是 | 100% |
 | 海露美Helmi | 是 | 100% |
 | 文图拉Ventura | 是 | 100% |
-| REBOOT SYSTEM | 否 | 5% |
+| REBOOT SYSTEM | 是 | 100% |
 | ？？ | 否 | 0% |
 
 ## 使用到的其他项目
