@@ -8,6 +8,7 @@
         <portraitLarge>Storyteller/Helmi/Helmi_Teller</portraitLarge>
         <portraitTiny>Storyteller/Helmi/Helmi_TellerTiny</portraitTiny>
         <listOrder>55</listOrder>
+        
         <adaptDaysGameStartGraceDays>25</adaptDaysGameStartGraceDays> <!--少给五天的适应天数宽限期-->
 
         <populationIntentFactorFromPopCurve>
@@ -18,14 +19,14 @@
                 <li>4, 1.2</li>
                 <li>7, 0.45</li>
                 <li>10, 0.25</li>
-                <li>20,-0.85</li>
+                <li>20, -0.82</li>
             </points>
         </populationIntentFactorFromPopCurve>
         <pointsFactorFromDaysPassed>
             <!-- 根据经过天数计算的事件强度因子 -->
-            <points> <!--均在原版曲线的基础上多加了五天-->
+            <points>
                 <li>(10, 0.75)</li>
-                <li>(35, 1.00)</li>
+                <li>(35, 1.0)</li>
             </points>
         </pointsFactorFromDaysPassed>
         <adaptDaysLossFromColonistLostByPostPopulation>

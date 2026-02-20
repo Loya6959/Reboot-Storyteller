@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+    <!-- 拦截心灵低语事件的台词 -->
+    <REBOOT_Loya_KillPsychic>络亚Loya：我看看，拦截成果是……{0}，不错不错！</REBOOT_Loya_KillPsychic>
+    <!-- 心灵低语拦截器 Alert -->
+    <REBOOT_Loya_KillPsychic_Alert_Title>络亚Loya·心灵防火墙</REBOOT_Loya_KillPsychic_Alert_Title>
+    <REBOOT_Loya_KillPsychic_Alert_Text>听好了，本小姐开这个防火墙完全就是任性，截至目前，本小姐这防火墙拦截的心灵低语数量是&lt;color=#9B33F0&gt;{0}&lt;/color&gt;，你要觉得做的不错，那就觉得不错吧。</REBOOT_Loya_KillPsychic_Alert_Text>
+</LanguageData>

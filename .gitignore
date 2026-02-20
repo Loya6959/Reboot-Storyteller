@@ -1,8 +1,12 @@
 /*
+/*/Assemblies
 !/About
 !/Source
-!/Defs
 !/Languages
 !/README.md
-!/Textures
 !/.gitignore
+!/Content
+
+# 版本文件
+!LoadFolders.xml
+!/1.6

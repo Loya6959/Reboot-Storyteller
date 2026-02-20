@@ -7,7 +7,7 @@
     <author>络亚Loya</author>
     <description>添加了四位「Re:boot」企划的player、Re:boot本体等五位故事叙事者。五位叙事者各自有不同的风格。</description>
     <supportedVersions>
-        <li>1.5</li>
+        <!-- <li>1.5</li> -->
         <li>1.6</li>
     </supportedVersions>
     <modDependenciesByVersion>

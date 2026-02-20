@@ -26,7 +26,7 @@
     <REBOOT_IAsk_HandleInput_lines_condition_met_Helmi>Loya说，记得去看讲述人列表，会给露噜米一个惊喜哦~</REBOOT_IAsk_HandleInput_lines_condition_met_Helmi>
     <REBOOT_IAsk_HandleInput_lines_condition_met_Ventura>谢谢填写，然后Loya看完后眼前一亮，让我转告你一定要记得去看讲述人列表^^</REBOOT_IAsk_HandleInput_lines_condition_met_Ventura>
     <REBOOT_IAsk_HandleInput_lines_condition_met_REBOOT>REBOOT::MSG - Loya转告您，查看讲述人列表</REBOOT_IAsk_HandleInput_lines_condition_met_REBOOT>
-    <REBOOT_IAsk_HandleInput_lines_condition_met_Loya>还记得那串密码明文啊，不错不错。</REBOOT_IAsk_HandleInput_lines_condition_met_Loya>
+    <REBOOT_IAsk_HandleInput_lines_condition_met_Loya>还记得那串密码的明文啊，不错不错。</REBOOT_IAsk_HandleInput_lines_condition_met_Loya>
     <!-- var: lines_normal -->
     <REBOOT_IAsk_HandleInput_lines_normal_Sthri>您的数据一如既往的没让她提起兴趣呢……</REBOOT_IAsk_HandleInput_lines_normal_Sthri>
     <REBOOT_IAsk_HandleInput_lines_normal_V0Rei>她怕是又要发疯了，这女人就喜欢打打杀杀……</REBOOT_IAsk_HandleInput_lines_normal_V0Rei>
@@ -50,4 +50,7 @@
     <!-- I_ASK自定义弹窗类 help命令 -->
     <REBOOT_IAsk_HELP_CMD_0>络亚Loya：我先说明，这只是一句预留的留言而已。</REBOOT_IAsk_HELP_CMD_0>
     <REBOOT_IAsk_HELP_CMD_1>络亚Loya：说回正题，这个mod的文件夹有你需要的东西，记得去看。然后嘛……待会儿最好看看你的桌面有没有多什么东西。</REBOOT_IAsk_HELP_CMD_1>
+    <!-- I_ASK自定义弹窗类 EnableLoyaQuest命令 -->
+    <REBOOT_IAsk_EnableLoyaQuest>络亚Loya：我该说我觉得很意外吗？即便我稍微有那么点高兴，我也想提醒你——你依旧有拒绝的权利……只要你不是在最后一次信件里进行的操作就行。你应该还记得命令，但我也重新提醒一遍，命令是DisableLoyaQuest</REBOOT_IAsk_EnableLoyaQuest>
+    <REBOOT_IAsk_DisableLoyaQuest>络亚Loya：嗯……尊重你的选择，我去喝个咖啡。</REBOOT_IAsk_DisableLoyaQuest>
 </LanguageData>
