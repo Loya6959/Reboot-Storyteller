@@ -229,4 +229,27 @@
             </li>
         </stages>
     </HediffDef>
+
+    <HediffDef>
+        <defName>REBOOT_REBOOT_DevSurveillance</defName>
+        <label>REBOOT·DebugSurveillance</label>
+        <description>REBOOT为何监视你的殖民者呢？</description>
+        <isBad>false</isBad>
+        <initialSeverity>0.5</initialSeverity>
+        <tendable>false</tendable>
+        <makesSickThought>false</makesSickThought>
+        <hediffClass>Loyacore_RebootStoryteller.REBOOT.REBOOT_DevSurveillance_Hediff</hediffClass>
+        <stages>
+            <li>
+                <label>NotDev</label>
+                <lifeThreatening>false</lifeThreatening>
+                <minSeverity>0.5</minSeverity>
+            </li>
+            <li>
+                <label>Dev</label>
+                <lifeThreatening>false</lifeThreatening>
+                <minSeverity>1.0</minSeverity>
+            </li>
+        </stages>
+    </HediffDef>
 </Defs>

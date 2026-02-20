@@ -2,105 +2,64 @@
 
 <Defs>
     <StorytellerDef ParentName="BaseStoryteller">
-        <defName>Reboot_Sthri</defName> <!-- 定义名 必须确保唯一 -->
-        <label>「温和」斯瑞Sthri</label> <!-- 叙事者名 -->
-        <description>「Re:boot No.003」\n\n来自亚美利戈的一个出逃家政机器人，在逃亡的途中被拉入到REBOOT_SYSTEM。\n\n斯瑞是一个和平主义者，通常不会给予太难的挑战，她总会留出充足的时间让你开拓建设。\n\n不过……如果打算用一些能让她崩溃的手段干掉她，那你就完蛋了。\n\n值得一提的是，斯瑞很喜欢画画，也许你可以试试搓出大师级的东西？</description>
-        <portraitLarge>Storyteller/Sthri/Sthri_Teller</portraitLarge>
-        <portraitTiny>Storyteller/Sthri/Sthri_TellerTiny</portraitTiny>
-        <listOrder>53</listOrder>
-        <adaptDaysGameStartGraceDays>35</adaptDaysGameStartGraceDays> <!--多给五天的适应天数宽限期-->
-        <populationIntentFactorFromPopCurve>
-            <!-- 根据人口规模计算事件强度因子 -->
-            <points>
-                <li>0, 8.0</li>
-                <li>1, 2.0</li>
-                <li>3, 1.0</li>
-                <li>6, 0.6</li>
-                <li>10, 0.25</li>
-                <li>20,-0.65</li>
-                <li>25,-1.0</li>
-            </points>
-        </populationIntentFactorFromPopCurve>
-        <pointsFactorFromDaysPassed>
-            <!-- 根据经过天数计算的事件强度因子 -->
-            <points> <!--均在原版曲线的基础上多加了五天-->
-                <li>(15, 0.70)</li>
-                <li>(45, 1.00)</li>
-            </points>
-        </pointsFactorFromDaysPassed>
-        <adaptDaysLossFromColonistLostByPostPopulation>
-            <!-- 根据人口损失减少适应天数 -->
-            <points>
-                <li>( 0, 35)</li> <!-- 30 days at normal pops; lower at really high pop -->
-                <li>(11, 35)</li>
-                <li>(20, 25)</li>
-            </points>
-        </adaptDaysLossFromColonistLostByPostPopulation>
-        <pointsFactorFromAdaptDays>
-            <!-- 根据适应天数计算的事件强度因子 -->
-            <points>
-                <li>(-30, 0.30)</li>  <!-- recover in 10 days -->
-                <li>( 0, 0.60)</li>  <!-- start at     0.80  -->
-                <li>( 30, 0.75)</li>  <!-- 0.5 years to 1.00  -->
-                <li>( 60, 0.90)</li>  <!-- 0.5 years to 1.20  -->
-                <li>(120, 1.20)</li>  <!-- 2   years to 1.60  -->
-            </points>
-        </pointsFactorFromAdaptDays>
+        <defName>Reboot_REBOOT</defName>
+        <label>「机械」REBOOT SYSTEM</label>
+        <description>REBOOT_SYSTEM，四位Player，四个人出自四个世界，能通过绑架手段将她们聚在一起的罪魁祸首，倒是可以这样形容这个机器头？\n\n它没什么编号，我甚至不知道这玩意儿是啥操作系统，不过我猜……是高度定制化的Linux？\n\n作为机器头，经典、死板也算是它的核心特质，不过作为一个喜欢时不时给四位Player发布“任务”的奇怪机器，这一“传统”也是照搬到了这个边缘世界——有时一些大的挑战会让你进行抉择，三选一的那种……第四种选项倒也有，不过我想你不会想选的。\n\n老实说REBOOT做为一个机器没啥有趣的特点，但如果你是热衷于创造的超凡智能，也许它会给你额外惊喜。</description>
+        <portraitLarge>Storyteller/REBOOT/REBOOT_Teller</portraitLarge>
+        <portraitTiny>Storyteller/REBOOT/REBOOT_TellerTiny</portraitTiny>
+        <listOrder>57</listOrder>
 
         <comps>
-            <!-- 注：模板提取自Rimworld: Core的菲比 -->
-            <!-- Intro（介绍）先不要 -->
+            <!-- 注：模板提取自Rimworld: Core的卡桑德拉 -->
+            <!-- Intro（介绍） -->
             <li Class="StorytellerCompProperties_ClassicIntro" />
             <!-- 我自己要触发的事件 -->
             <li Class="StorytellerCompProperties_SingleOnceFixed">
-                <!-- 分别在16、30、60、90天触发四次弹窗 -->
-                <fireAfterDaysPassed>16</fireAfterDaysPassed>
+                <!-- 分别在13、21、34、55天触发四次弹窗 -->
+                <fireAfterDaysPassed>13</fireAfterDaysPassed>
                 <incident>RebootStoryteller_TextInputEvent</incident>
                 <allowedTargetTags>
                     <li>World</li>
                 </allowedTargetTags>
             </li>
-
             <li Class="StorytellerCompProperties_SingleOnceFixed">
-                <fireAfterDaysPassed>30</fireAfterDaysPassed>
+                <fireAfterDaysPassed>21</fireAfterDaysPassed>
                 <incident>RebootStoryteller_TextInputEvent</incident>
                 <allowedTargetTags>
                     <li>World</li>
                 </allowedTargetTags>
             </li>
-
             <li Class="StorytellerCompProperties_SingleOnceFixed">
-                <fireAfterDaysPassed>60</fireAfterDaysPassed>
+                <fireAfterDaysPassed>34</fireAfterDaysPassed>
                 <incident>RebootStoryteller_TextInputEvent</incident>
                 <allowedTargetTags>
                     <li>World</li>
                 </allowedTargetTags>
             </li>
-
             <li Class="StorytellerCompProperties_SingleOnceFixed">
-                <fireAfterDaysPassed>90</fireAfterDaysPassed>
+                <fireAfterDaysPassed>55</fireAfterDaysPassed>
                 <incident>RebootStoryteller_TextInputEvent</incident>
                 <allowedTargetTags>
                     <li>World</li>
                 </allowedTargetTags>
             </li>
-            <li Class="Loyacore_RebootStoryteller.Sthri.Sthri_StorytellerCompProperties_Madness"/>
             <!-- Home threats（家园威胁控制） -->
-            <li Class="StorytellerCompProperties_OnOffCycle">
+            <li Class="Loyacore_RebootStoryteller.REBOOT.REBOOT_StorytellerCompProperties_OnOffCycle">
                 <!-- 重大威胁频率控制 -->
                 <category>ThreatBig</category>
-                <minDaysPassed>13.0</minDaysPassed> <!-- 相对于卡桑德拉 多给两天间隔期 -->
-                <onDays>5.2</onDays> <!-- 小幅上调开启关闭时间 延后启动周期 -->
-                <offDays>8.4</offDays>
-                <minSpacingDays>1.2</minSpacingDays> <!-- 增加最小间隔天数 给玩家更多喘气时间 -->
-                <numIncidentsRange>1~3</numIncidentsRange>
-                <forceRaidEnemyBeforeDaysPassed>25</forceRaidEnemyBeforeDaysPassed> <!-- 多给了三天 也就是说
-                游戏在每过25天内就得生成一次大型威胁 -->
+                <minDaysPassed>11.0</minDaysPassed>
+                <onDays>4.6</onDays>
+                <offDays>6.0</offDays>
+                <minSpacingDays>1.9</minSpacingDays>
+                <numIncidentsRange>1~2</numIncidentsRange>
+                <forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
+                <!-- 75%几率将事件替换为“选项” -->
+                <choiceIncidentProbability>0.75</choiceIncidentProbability>
                 <disallowedTargetTags>
                     <li>Map_RaidBeacon</li>
                 </disallowedTargetTags>
             </li>
-            <li Class="StorytellerCompProperties_ThreatsGenerator">
+            <li Class="Loyacore_RebootStoryteller.REBOOT.REBOOT_StorytellerCompProperties_ThreatsGenerator">
                 <!-- 袭击生成器 -->
                 <allowedTargetTags>
                     <li>Map_RaidBeacon</li>
@@ -113,13 +72,15 @@
                     <numIncidentsRange>1~2</numIncidentsRange>
                     <minThreatPoints>500</minThreatPoints>
                 </parms>
+                <!-- 75%几率将事件替换为“选项” -->
+                <choiceIncidentProbability>0.75</choiceIncidentProbability>
             </li>
-            <li Class="StorytellerCompProperties_OnOffCycle">
+            <li Class="Loyacore_RebootStoryteller.REBOOT.REBOOT_StorytellerCompProperties_OnOffCycle">
                 <!-- 小型威胁频率控制 -->
                 <category>ThreatSmall</category>
-                <minDaysPassed>14.0</minDaysPassed>
-                <onDays>8.5</onDays>
-                <offDays>8.0</offDays>
+                <minDaysPassed>11.0</minDaysPassed>
+                <onDays>4.6</onDays>
+                <offDays>6.0</offDays>
                 <numIncidentsRange>0.2~1</numIncidentsRange>
                 <acceptPercentFactorPerThreatPointsCurve>
                     <points>
@@ -142,18 +103,18 @@
             <li Class="StorytellerCompProperties_Disease">
                 <!-- 配置人类疾病 -->
                 <category>DiseaseHuman</category>
-                <minDaysPassed>14</minDaysPassed> <!-- 多给5天最小间隔天数 -->
+                <minDaysPassed>9</minDaysPassed>
             </li>
             <li Class="StorytellerCompProperties_Disease">
                 <!-- 配置动物疾病 -->
                 <category>DiseaseAnimal</category>
-                <minDaysPassed>12</minDaysPassed> <!-- 多给3天最小间隔天数 -->
+                <minDaysPassed>9</minDaysPassed>
             </li>
             <!-- Ally/neutral interaction（盟友/中立派系互动） -->
             <li Class="StorytellerCompProperties_FactionInteraction">
                 <!-- 配置援军生成 -->
                 <incident>RaidFriendly</incident>
-                <baseIncidentsPerYear>18</baseIncidentsPerYear> <!-- 每年基本事件数 多给3个 -->
+                <baseIncidentsPerYear>15</baseIncidentsPerYear>
                 <minSpacingDays>0.4</minSpacingDays>
                 <fullAlliesOnly>true</fullAlliesOnly>
                 <minDanger>High</minDanger>
@@ -272,8 +233,8 @@
             <li Class="StorytellerCompProperties_OnOffCycle">
                 <!-- 控制轨道贸易商的生成周期 -->
                 <incident>OrbitalTraderArrival</incident>
-                <onDays>6</onDays>
-                <offDays>7</offDays>
+                <onDays>7</onDays>
+                <offDays>8</offDays>
                 <numIncidentsRange>1</numIncidentsRange>
             </li>
             <!-- Triggered（已触发，目前我只观察到这个对人死光了有作用） -->
@@ -284,5 +245,4 @@
             </li>
         </comps>
     </StorytellerDef>
-
 </Defs>

@@ -22,4 +22,9 @@
     <REBOOT_Helmi_Despair.label>世界末日·绝望</REBOOT_Helmi_Despair.label>
     <REBOOT_Helmi_Despair.description>就连肉身都能感受到世界末日带来的压迫感。</REBOOT_Helmi_Despair.description>
     <REBOOT_Helmi_Despair.stages.Despair.label>绝望</REBOOT_Helmi_Despair.stages.Despair.label>
+    <!-- REBOOT -->
+    <REBOOT_REBOOT_DevSurveillance.label>REBOOT·DebugSurveillance</REBOOT_REBOOT_DevSurveillance.label>
+    <REBOOT_REBOOT_DevSurveillance.description>REBOOT为何监视你的殖民者呢？</REBOOT_REBOOT_DevSurveillance.description>
+    <REBOOT_REBOOT_DevSurveillance.stages.NotDev>NotDev</REBOOT_REBOOT_DevSurveillance.stages.NotDev>
+    <REBOOT_REBOOT_DevSurveillance.stages.Dev>Dev</REBOOT_REBOOT_DevSurveillance.stages.Dev>
 </LanguageData>
