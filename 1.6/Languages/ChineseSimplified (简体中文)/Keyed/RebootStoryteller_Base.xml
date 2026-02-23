@@ -53,4 +53,9 @@
     <!-- I_ASK自定义弹窗类 EnableLoyaQuest命令 -->
     <REBOOT_IAsk_EnableLoyaQuest>络亚Loya：我该说我觉得很意外吗？即便我稍微有那么点高兴，我也想提醒你——你依旧有拒绝的权利……只要你不是在最后一次信件里进行的操作就行。你应该还记得命令，但我也重新提醒一遍，命令是DisableLoyaQuest</REBOOT_IAsk_EnableLoyaQuest>
     <REBOOT_IAsk_DisableLoyaQuest>络亚Loya：嗯……尊重你的选择，我去喝个咖啡。</REBOOT_IAsk_DisableLoyaQuest>
+    <!-- Mod Settings -->
+    <REBOOT_SettingsTitle>REBOOT叙事者通用设置</REBOOT_SettingsTitle>
+    <REBOOT_SettingsLabel>通用设置</REBOOT_SettingsLabel>
+    <REBOOT_EnableV0ReiAssassination>启用V0Rei的暗杀功能</REBOOT_EnableV0ReiAssassination>
+    <REBOOT_EnableVenturaIncreaseResearchPointsLimit>启用Ventura象位的袭击点数增幅限制</REBOOT_EnableVenturaIncreaseResearchPointsLimit>
 </LanguageData>

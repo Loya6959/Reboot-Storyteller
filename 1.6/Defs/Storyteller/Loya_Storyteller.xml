@@ -119,7 +119,7 @@
                     <minThreatPoints>500</minThreatPoints>
                 </parms>
                 <randomFactorRange>1.0~2.5</randomFactorRange>
-                <smallThreatFactorRange>0.7f, 1.3f</smallThreatFactorRange>
+                <smallThreatFactorRange>0.7~1.3</smallThreatFactorRange>
             </li>
             <li Class="Loyacore_RebootStoryteller.Loya.Loya_StorytellerCompProperties_OnOffCycle">
                 <!-- 小型威胁频率控制 -->
