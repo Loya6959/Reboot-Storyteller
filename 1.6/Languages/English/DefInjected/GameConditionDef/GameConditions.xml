@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <!-- 斯瑞Sthri -->
+    <REBOOT_StorytellerMadness_Sthri.label>斯瑞·歼灭模式</REBOOT_StorytellerMadness_Sthri.label>
+    <REBOOT_StorytellerMadness_Sthri.description>你的某些行为触发了斯瑞的操作系统防卫模式，我只能说……祝你好运。</REBOOT_StorytellerMadness_Sthri.description>
+    <REBOOT_StorytellerMadness_Sthri.descriptionFuture>以防你忘记，这里我重申一遍，我会在五天内解决这个问题，期间你自己想办法吧。</REBOOT_StorytellerMadness_Sthri.descriptionFuture>
+    <REBOOT_StorytellerMadness_Sthri.endMessage>SthriOS：风险解除，防备模式已将权限转回主操作系统。</REBOOT_StorytellerMadness_Sthri.endMessage>
+    <!-- 海露美Helmi -->
+    <REBOOT_Helmi_TheEndOfTheWorld.label>海露美·世界末日</REBOOT_Helmi_TheEndOfTheWorld.label>
+    <REBOOT_Helmi_TheEndOfTheWorld.description>……</REBOOT_Helmi_TheEndOfTheWorld.description>
+    <REBOOT_Helmi_TheEndOfTheWorld.descriptionFuture>舞台总有落幕，不是吗？我很遗憾，这场表演最后的结局是这样。</REBOOT_Helmi_TheEndOfTheWorld.descriptionFuture>
+</LanguageData>

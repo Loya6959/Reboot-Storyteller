@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <!-- 斯瑞Sthri -->
+    <Sthri_AppreciatesArt.stages.0.label>斯瑞·大师激励</Sthri_AppreciatesArt.stages.0.label>
+    <Sthri_AppreciatesArt.stages.0.description>这是做出大师级物品后，斯瑞给的小小奖励~</Sthri_AppreciatesArt.stages.0.description>
+
+    <Sthri_AppreciatesArt.stages.1.label>斯瑞·传奇激励</Sthri_AppreciatesArt.stages.1.label>
+    <Sthri_AppreciatesArt.stages.1.description>在做出传奇级别物品的情况下，理应有更好的小奖励~</Sthri_AppreciatesArt.stages.1.description>
+
+    <!-- 海露美Helmi -->
+    <Helmi_Numb.stages.0.label>世界末日·麻木</Helmi_Numb.stages.0.label>
+    <Helmi_Numb.stages.0.description>任何情绪都已经没有了任何意义，即便是崩溃也不能阻止一切……</Helmi_Numb.stages.0.description>
+</LanguageData>

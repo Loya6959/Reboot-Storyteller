@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+    <!-- 袭击信件 拒绝&超时台词 -->
+    <REBOOT_REBOOT_Letter_TimeOut>REBOOT SYSTEM Warning：超时，视为拒绝行为，开始执行默认策略以更正该越权行为</REBOOT_REBOOT_Letter_TimeOut>
+    <REBOOT_REBOOT_Letter_Refuse>REBOOT SYSTEM Warning：未经允许的拒绝行为，开始执行默认策略以更正该越权行为</REBOOT_REBOOT_Letter_Refuse>
+    <!-- “可选项”事件文本 -->
+    <REBOOT_REBOOT_ThreatBigChoice_Label>REBOOT·可选袭击</REBOOT_REBOOT_ThreatBigChoice_Label>
+    <REBOOT_REBOOT_ThreatBigChoice_Text>本次固定袭击已重置为多选项，当前用户没有拒绝多选袭击的权限</REBOOT_REBOOT_ThreatBigChoice_Text>
+    <!-- 调试模式提示文本 -->
+    <REBOOT_REBOOT_Alert_Title>REBOOT·正在辅助调试</REBOOT_REBOOT_Alert_Title>
+    <REBOOT_REBOOT_Alert_Text>调试期间，殖民者的四个核心需求将锁定为100%（防止你陷入强迫症或高血压）</REBOOT_REBOOT_Alert_Text>
+</LanguageData>
