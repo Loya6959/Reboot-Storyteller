@@ -58,4 +58,5 @@
     <REBOOT_SettingsLabel>通用设置</REBOOT_SettingsLabel>
     <REBOOT_EnableV0ReiAssassination>启用V0Rei的暗杀功能</REBOOT_EnableV0ReiAssassination>
     <REBOOT_EnableVenturaIncreaseResearchPointsLimit>启用Ventura象位的袭击点数增幅限制</REBOOT_EnableVenturaIncreaseResearchPointsLimit>
+    <REBOOT_EnableRebootDevSurveillance>启用REBOOT的开发者援助功能</REBOOT_EnableRebootDevSurveillance>
 </LanguageData>
